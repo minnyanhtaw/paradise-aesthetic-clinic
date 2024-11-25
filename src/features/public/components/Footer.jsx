@@ -8,7 +8,6 @@ import { SlSocialFacebook } from "react-icons/sl";
 import { PiInstagramLogoLight, PiYoutubeLogoThin } from "react-icons/pi";
 import { TbBrandTwitterFilled } from "react-icons/tb";
 import { Link } from "react-router-dom";
-import { LuLocate } from "react-icons/lu";
 import { SlLocationPin } from "react-icons/sl";
 import { HiOutlineMail } from "react-icons/hi";
 import { PiPhone } from "react-icons/pi";
