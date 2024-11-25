@@ -1,35 +1,38 @@
-import { lazy } from "react";
-import React from "react";
-
-const IssuesDetailPage = lazy(() =>
-  import("../features/public/pages/IssuesDetailPage")
-);
-const TreatmentsPage = lazy(() =>
-  import("../features/public/pages/TreatmentsPage")
-);
-const TreatmentDetailPage = lazy(() =>
-  import("../features/public/pages/TreatmentDetailPage")
-);
-const BlogPage = lazy(() => import("../features/public/pages/BlogPage"));
-const BlogDetail = lazy(() => import("../features/public/pages/BlogDetail"));
-
-const BookAppointmentPage = lazy(() =>
-  import("../features/public/pages/BookAppointmentPage")
+import React, { lazy } from "react";
+const HomePage = lazy(() => import("../features/public/pages/home/HomePage"));
+const AboutUsPage = lazy(() =>
+  import("../features/public/pages/about-us/AboutUsPage")
 );
 const DotorDetailPage = lazy(() =>
-  import("../features/public/pages/DotorDetailPage")
+  import("../features/public/pages/about-us/DotorDetailPage")
 );
-const IssuesPage = lazy(() => import("../features/public/pages/IssuesPage"));
+const IssuesPage = lazy(() =>
+  import("../features/public/pages/issues/IssuesPage")
+);
+const IssuesDetailPage = lazy(() =>
+  import("../features/public/pages/issues/IssuesDetailPage")
+);
+const TreatmentsPage = lazy(() =>
+  import("../features/public/pages/treatments/TreatmentsPage")
+);
+const TreatmentDetailPage = lazy(() =>
+  import("../features/public/pages/treatments/TreatmentDetailPage")
+);
+const BlogPage = lazy(() => import("../features/public/pages/blog/BlogPage"));
+const BlogDetail = lazy(() =>
+  import("../features/public/pages/blog/BlogDetail")
+);
+const ContactUsPage = lazy(() =>
+  import("../features/public/pages/contact-us/ContactUsPage")
+);
+const BookAppointmentPage = lazy(() =>
+  import("../features/public/pages/booking-appointment/BookAppointmentPage")
+);
 const PrivacyPolicyPage = lazy(() =>
-  import("../features/public/pages/PrivacyPolicyPage")
+  import("../features/public/pages/privacy-policy/PrivacyPolicyPage")
 );
 const TermsAndConditionsPage = lazy(() =>
-  import("../features/public/pages/TermsAndConditionsPage")
-);
-const HomePage = lazy(() => import("../features/public/pages/HomePage"));
-const AboutUsPage = lazy(() => import("../features/public/pages/AboutUsPage"));
-const ContactUsPage = lazy(() =>
-  import("../features/public/pages/ContactUsPage")
+  import("../features/public/pages/terms-and-conditions/TermsAndConditionsPage")
 );
 
 const publicRoute = [

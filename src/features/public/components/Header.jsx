@@ -7,7 +7,7 @@ import Button from "../../../ui/Button";
 
 const Header = () => {
   return (
-    <nav className="bg-white dark:bg-gray-900 sticky w-full z-20 top-0 start-0 border-b">
+    <nav className="bg-white dark:bg-gray-900 sticky w-full z-20 top-0 start-0">
       <Container>
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
           <Link
@@ -54,7 +54,7 @@ const Header = () => {
               <li>
                 <Link
                   to={"/"}
-                  className="block py-2 px-3  rounded md:bg-transparent  md:p-0 md:dark:text-blue-500"
+                  className="block py-2 px-3 hover:text-heading-900  rounded md:bg-transparent  md:p-0 md:dark:text-blue-500"
                   aria-current="page"
                 >
                   Home
@@ -63,7 +63,7 @@ const Header = () => {
               <li>
                 <Link
                   to={"/issues"}
-                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block py-2 px-3 hover:text-heading-900 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Issues
                 </Link>
@@ -71,7 +71,7 @@ const Header = () => {
               <li>
                 <Link
                   to={"/treatments"}
-                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block py-2 px-3 hover:text-heading-900 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Treaments
                 </Link>
@@ -79,7 +79,7 @@ const Header = () => {
               <li>
                 <Link
                   to={"/blog"}
-                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block py-2 px-3 hover:text-heading-900 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Blog
                 </Link>
@@ -87,7 +87,7 @@ const Header = () => {
               <li>
                 <Link
                   to={"/about-us"}
-                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block py-2 px-3 hover:text-heading-900 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   About Us
                 </Link>
@@ -95,7 +95,7 @@ const Header = () => {
               <li>
                 <Link
                   to={"/contact-us"}
-                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block py-2 px-3 hover:text-heading-900 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Contact Us
                 </Link>
