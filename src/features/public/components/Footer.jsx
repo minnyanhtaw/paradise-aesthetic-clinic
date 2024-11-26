@@ -2,7 +2,6 @@ import React from "react";
 import Container from "../../../components/Container";
 import Input from "../../../../src/ui/Input";
 import Button from "../../../../src/ui/Button";
-import vector from "../../../assets/img/Vector.png";
 import Logo from "../../../components/Logo";
 import { SlSocialFacebook } from "react-icons/sl";
 import { PiInstagramLogoLight, PiYoutubeLogoThin } from "react-icons/pi";
@@ -16,10 +15,10 @@ const Footer = () => {
   return (
     <footer className="mt-auto relative">
       <div className="p-12 relative">
-        <img
-          src={vector}
+        {/* <img
+          src={}
           className="absolute top-0 right-0 w-full h-full -z-10"
-        />
+        /> */}
         <div className=" flex flex-col  gap-12 max-w-2xl mx-auto">
           <div className="flex flex-col items-center gap-5">
             <h3 className=" font-heading text-heading-950 text-3xl text-center">

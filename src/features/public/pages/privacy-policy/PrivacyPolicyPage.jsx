@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import HeroSection from "./components/HeroSection";
+import IntroductionSection from "./components/IntroductionSection";
 
 const PrivacyPolicyPage = () => {
   return (
-    <div>PrivacyPolicyPage</div>
-  )
-}
+    <main>
+      <HeroSection />
+      <IntroductionSection />
+    </main>
+  );
+};
 
-export default PrivacyPolicyPage
+export default PrivacyPolicyPage;
