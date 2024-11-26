@@ -1,10 +1,16 @@
 import React from "react";
 import Button from "../../../../../ui/Button";
+import heroBackground from "../../../../../assets/hero-&-banner-img/for-hero.jpg";
 import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
     <section className="py-20 relative">
+      <img
+        src={heroBackground}
+        className=" absolute left-0 top-0 w-full h-full -z-10"
+        alt=""
+      />
       <div className=" max-w-2xl mx-auto flex flex-col gap-10 items-center">
         <div className=" flex flex-col gap-4">
           <p className="text-sm text-zinc-50 text-center">Glow Beyond Limits</p>
